@@ -22,7 +22,9 @@ export default ({projects}) => {
       <div className={navStyle.wrapper}>
         <div className={navStyle["navbar"] + " " + contStyle.container}>
           <div className={navStyle["navbar-home"]}>
-            <h3>Jared Loomis</h3>
+            <Link to="/">
+              <h3>Jared Loomis</h3>
+            </Link>
           </div>
           <div className={navStyle["navbar-list"]}>
             <div className={navStyle["navbar-item"]}>
@@ -42,7 +44,7 @@ export default ({projects}) => {
       <hr/>
 
       <div className={contStyle.container}>
-        <Route path="/about"       component={About}/>
+        <Route path="/"            component={About}/>
         <Route path="/projects"    component={ProjectListPath}/>
         <Route path="/blog"        component={Blog}/>
         <Route path="/project/:id" component={ProjectPath}/>
