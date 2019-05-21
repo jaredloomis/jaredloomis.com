@@ -1,0 +1,17 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-home {
+  padding: 1em;
+}
+
+.navbar-list {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar-item {
+  padding: 1em;
+}

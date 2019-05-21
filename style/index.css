@@ -1,0 +1,17 @@
+body {
+  background-color: rgba(0, 0, 0, 0.9);
+  color:            rgba(255, 255, 255, 0.8);
+  font-family:      "Open Sans", sans-serif;
+}
+
+a, a:visited {
+  color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Source Code Pro", monospace;
+}
+
+pre {
+  font-family: "Source Code Pro", monospace;
+}
