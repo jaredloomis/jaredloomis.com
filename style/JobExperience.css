@@ -1,0 +1,18 @@
+.heading {
+  display: inline;
+}
+
+.company {
+  color: rgba(0, 0, 0, 0.9 * 255)
+}
+
+.timespan {
+  display: block;
+  color: var(--color-text-light);
+  font-size: 0.9em;
+}
+
+.logo {
+  float: left;
+  margin-right: 10px;
+}

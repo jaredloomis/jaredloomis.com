@@ -1,0 +1,78 @@
+.container {
+}
+
+.skills {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.skill {
+  color: white;
+  font-weight: bold;
+  padding: 3px;
+  margin-top: 3px;
+  border-radius: 2px;
+  height: 1.25em;
+
+  display: flex;
+  flex-grow: space-around;
+
+  /* TODO */
+  box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+
+  animation-name: background-position;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  /* background: linear-gradient(45deg, var(--color-primary), var(--color-secondary), var(--color-tertiary), var(--color-accent)); */
+	background-size: 400% 400%;
+}
+
+.skill > span {
+  width: 10em; /*250px; */
+}
+
+.expert {
+  width: 100%;
+  animation-duration: 8s;
+  background: linear-gradient(45deg, var(--color-primary), var(--color-secondary), var(--color-primary), var(--color-secondary));
+  background-size: 400% 400%;
+}
+
+.advanced {
+  width: 90%;
+  animation-duration: 10s;
+  background: linear-gradient(45deg, var(--color-secondary), var(--color-tertiary), var(--color-secondary), var(--color-tertiary));
+  background-size: 400% 400%;
+}
+
+.intermediate {
+  width: 80%;
+  animation-duration: 12s;
+  background: linear-gradient(45deg, var(--color-tertiary), var(--color-secondary), var(--color-tertiary), var(--color-accent));
+  background-size: 400% 400%;
+}
+
+.beginner {
+  width: 60%;
+  animation-duration: 15s;
+  background: linear-gradient(45deg, var(--color-tertiary), var(--color-accent), var(--color-tertiary), var(--color-accent));
+  background-size: 400% 400%;
+}
+
+.showcases {
+  display: none;
+  padding: 0.3em;
+}
+
+@keyframes background-position {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}

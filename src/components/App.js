@@ -1,10 +1,14 @@
 import React       from "react"
 import {HashRouter as Router, Route, Link} from "react-router-dom"
 
-import About       from "./About"
-import ProjectList from "./ProjectList"
-import Project     from "./Project"
-import Blog        from "./Blog"
+import Header        from "./Header"
+import About         from "./About"
+import JobExperience from "./JobExperience"
+import SkillsSummary from "./SkillsSummary"
+import ProjectList   from "./ProjectList"
+import Footer        from "./Footer"
+import Project       from "./Project"
+import Blog          from "./Blog"
 
 import style       from "../../style/index.css"
 import navStyle    from "../../style/navbar.css"
@@ -17,6 +21,15 @@ export default ({projects}) => {
   const ProjectPath = props =>
     <Project {...projects[props.match.params.id]}/>
 
+  return <div className={style.content}>
+    <Header/>
+    <About/>
+    <SkillsSummary/>
+    <JobExperience/>
+    <ProjectList/>
+    <Footer/>
+  </div>
+/*
   return <Router>
     <div>
       <div className={navStyle.wrapper}>
@@ -51,4 +64,5 @@ export default ({projects}) => {
       </div>
     </div>
   </Router>
+  */
 }

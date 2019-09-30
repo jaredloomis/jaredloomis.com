@@ -1,0 +1,46 @@
+.container {
+  padding-top: 2em;
+  text-align: center;
+
+  --card-width: 50%;
+}
+
+.container:before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: var(--card-width);
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.container:after {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: var(--card-width);
+    margin-top: 10px;
+    border-bottom: 2px solid var(--color-primary);
+}
+
+.card > h2, .card > h4 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.headshot {
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.social {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.social > * {
+  margin-left:  10px;
+  margin-right: 10px;
+}

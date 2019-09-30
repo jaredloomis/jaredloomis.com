@@ -1,11 +1,13 @@
 body {
-  background-color: rgba(0, 0, 0, 0.9);
-  color:            rgba(255, 255, 255, 0.8);
-  font-family:      "Open Sans", sans-serif;
-}
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.2em;
 
-a, a:visited {
-  color: white;
+  --color-primary: #41B3A3;
+  --color-secondary: #78CDD1;
+  --color-tertiary: #C38D9E;
+  --color-accent: #E27D60;
+
+  --color-text-light: rgba(0, 0, 0, 0.4);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -14,4 +16,18 @@ h1, h2, h3, h4, h5, h6 {
 
 pre {
   font-family: "Source Code Pro", monospace;
+}
+
+h1 {
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent);
+  padding-top:    0.4em;
+  padding-bottom: 0.1em;
+}
+
+.content {
+  width: 70%;
+  max-width: 960px;
+  min-width: 500px;
+  margin: auto;
 }

@@ -1,12 +1,15 @@
 import React from "react"
 
-export default () => <div>
-  <h1>About</h1>
+import style from "../../style/About.css"
+
+export default () => <section className={style.container}>
+  <h1>About Me</h1>
   <p>
-    Hello, and welcome to my personal site! I'm a junior developer
-    with an insatiable appetite for code, living in San Diego.
-    There's not much up here now, but you can head on over to
-    my <a href="https://github.com/jaredloomis">GitHub</a> to see what
-    I've been working on.
+    I'm a Java & JavaScript Software Engineer with industry experience
+    developing applications which increase productivity. I have a
+    driven, can-do attitude arising from a passion for all things technology.
+    Building things is what I truly enjoy doing - there's nothing like seeing
+    the software I contributed to, solving people's daily problems, and
+    enriching their lives.
   </p>
-</div>
+</section>

@@ -1,0 +1,5 @@
+.timespan {
+  display: block;
+  color: var(--color-text-light);
+  font-size: 0.9em;
+}
