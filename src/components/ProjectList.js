@@ -16,7 +16,7 @@ export default () => <section>
       nitty gritty, so employees with minimal technical skills can quickly
       create stable, high quality tests.
     </p>
-    <img src="assets/declare-screenshot.png" width="720"/>
+    <img src="dist/assets/declare-screenshot.png" width="720"/>
     <p>
       Declare achieves a higher level of test stability by leveraging the power
       of abstraction. The abstraction which seems to provide the most bang for your buck

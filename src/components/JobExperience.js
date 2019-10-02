@@ -5,7 +5,7 @@ import style from "../../style/JobExperience.css"
 export default () => <section className={style.container}>
   <h1>Professional Experience</h1>
   <article className={style.job}>
-    <img src="assets/airspace-logo.png" width="32" height="32" className={style.logo}/>
+    <img src="dist/assets/airspace-logo.png" width="32" height="32" className={style.logo}/>
     <h3 className={style.heading}>
       <span className={style.company}>Airspace Technologies</span>
       <span> - </span>
@@ -22,7 +22,7 @@ export default () => <section className={style.container}>
     </span>
   </article>
   <article className={style.job}>
-    <img src="assets/workwell-logo.png" width="32" height="32" className={style.logo}/>
+    <img src="dist/assets/workwell-logo.png" width="32" height="32" className={style.logo}/>
     <h3 className={style.heading}>
       <span className={style.company}>Workwell Technologies</span>
       <span> - </span>
