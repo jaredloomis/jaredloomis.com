@@ -1,29 +1,20 @@
 .container {
-  padding-top: 2em;
   text-align: center;
-
-  --card-width: 50%;
+  margin-bottom: 0px;
+  --card-width: 100%;
 }
 
-.container:before {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: var(--card-width);
-    margin-bottom: 10px;
-    border-bottom: 2px solid var(--color-primary);
+.card {
+  width: var(--card-width);
+  margin: 0 auto;
+  padding: 16px;
 }
 
-.container:after {
-    content: "";
-    display: block;
-    margin: 0 auto;
-    width: var(--card-width);
-    margin-top: 10px;
-    border-bottom: 2px solid var(--color-primary);
+.subtitle {
+  color: var(--color-accent);
 }
 
-.card > h2, .card > h4 {
+.subtitle, .card h2 {
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -38,9 +29,12 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 10px;
 }
 
 .social > * {
   margin-left:  10px;
   margin-right: 10px;
 }
+
+.leftSide {}

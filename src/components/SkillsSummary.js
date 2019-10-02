@@ -45,7 +45,7 @@ export default () => <section className={style.container}>
     </li>
     <li className={`${style.skill} ${style.intermediate}`}>
       <span className={style.name}>C</span>
-      <span className={style.level}>2 Years</span>
+      <span className={style.level}>5 Years</span>
     </li>
     <li className={`${style.skill} ${style.beginner}`}>
       <span className={style.name}>C++</span>

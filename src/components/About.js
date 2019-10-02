@@ -2,14 +2,12 @@ import React from "react"
 
 import style from "../../style/About.css"
 
-export default () => <section className={style.container}>
-  <h1>About Me</h1>
+export default () => <div className={style.container}>
   <p>
-    I'm a Java & JavaScript Software Engineer with industry experience
-    developing applications which increase productivity. I have a
-    driven, can-do attitude arising from a passion for all things technology.
-    Building things is what I truly enjoy doing - there's nothing like seeing
-    the software I contributed to, solving people's daily problems, and
-    enriching their lives.
+    I am a Full-Stack Software Engineer based in San Diego with industry experience
+    developing web apps with Java, Node.js, and React.js. Driven,
+    detail-oriented, and always seeking to learn new skills in the realm
+    of technology. I'm looking for opportunities to solve difficult
+    problems with a team of passionate people.
   </p>
-</section>
+</div>

@@ -2,7 +2,7 @@
   display: inline;
 }
 
-.job {
+.job:not(:last-child) {
   padding-bottom: 1em;
 }
 
