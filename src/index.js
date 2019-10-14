@@ -3,6 +3,8 @@ import ReactDOM from "react-dom"
 
 import App from "./components/App"
 
+import "normalize.css"
+
 const projects = [
   {
     name: "Declare QA",
