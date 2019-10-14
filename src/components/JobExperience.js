@@ -9,7 +9,7 @@ export default () => <section className={style.container}>
     <h3 className={style.heading}>
       <span className={style.company}>Airspace Technologies</span>
       <span> - </span>
-      <span className={style.position}>QA Automation Engineer</span>
+      <span className={style.position}>Software Engineer in Test</span>
     </h3>
     <span className={style.timespan}>
       January 2019 - June 2019
@@ -26,7 +26,7 @@ export default () => <section className={style.container}>
     <h3 className={style.heading}>
       <span className={style.company}>Workwell Technologies</span>
       <span> - </span>
-      <span className={style.position}>QA Automation Engineer</span>
+      <span className={style.position}>Software Engineer in Test</span>
     </h3>
     <span className={style.timespan}>
       August 2015 - August 2018
