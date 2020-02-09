@@ -5,6 +5,32 @@ import style from "../../style/JobExperience.css"
 export default () => <section className={style.container}>
   <h1>Professional Experience</h1>
   <article className={style.job}>
+    <img src="dist/assets/amazon-logo.png" width="32" height="32" className={style.logo}/>
+    <h3 className={style.heading}>
+      <span className={style.company}>Amazon</span>
+      <span> - </span>
+      <span className={style.position}>Software Development Engineer</span>
+    </h3>
+    <span className={style.timespan}>
+      December 2019 - Present
+    </span>
+    <span className={style.description}>
+      <ul>
+        <li>
+          Work in a team to develop cloud services to support a beta marketing system, resulting
+          in a >40 hours/month reduction in manual processes, and allowing scalability of the
+          underlying marketing process.
+        </li>
+        <li>
+          Contribute to design and culture discussions.
+        </li>
+      </ul>
+      <i>
+        Skills used: Python, CI/CD, MVC patterns, OOD, service-oriented architecture, DJango
+      </i>
+    </span>
+  </article>
+  <article className={style.job}>
     <img src="dist/assets/airspace-logo.png" width="32" height="32" className={style.logo}/>
     <h3 className={style.heading}>
       <span className={style.company}>Airspace Technologies</span>
