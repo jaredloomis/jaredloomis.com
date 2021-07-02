@@ -1,5 +1,6 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Lora', 'Times New Roman', serif;
+  font-size: 19px;
   line-height: 28px;
 
   /*
@@ -13,13 +14,16 @@ body {
   --color-tertiary: #D13147;
   --color-accent: #A239CA;
 
-  --color-text: black;
+  --color-text: #404040;
   --color-text-light: rgba(0, 0, 0, 0.4);
-  --color-text-invert: white
+  --color-text-invert: white;
+
+  color: var(--color-text);
 }
 
 h1, h2, h3, h4, h5, h6, b {
-  font-family: "Source Code Pro", monospace;
+  /* font-family: "Source Code Pro", monospace; */
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 pre {
@@ -27,8 +31,8 @@ pre {
 }
 
 h1 {
-  text-decoration: underline;
-  text-decoration-color: var(--color-accent);
+  text-decoration: underline 1px;
+  text-decoration-color: var(--color-primary);
 }
 
 a {

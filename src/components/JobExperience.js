@@ -12,23 +12,27 @@ export default () => <section className={style.container}>
       <span className={style.position}>Software Development Engineer</span>
     </h3>
     <span className={style.timespan}>
-      December 2019 - Present
+      December 2019 - November 2020
     </span>
     <span className={style.description}>
       <ul>
         <li>
-          Work in a team to develop cloud services to support a beta marketing system, resulting
-          in a >40 hours/month reduction in manual processes, and allowing scalability of the
-          underlying marketing process.
+          Develop AWS-based cloud services to support a new Amazon product.
         </li>
         <li>
-          Contribute to design and culture discussions.
+          Manage and monitor infrastructure deployments.
+        </li>
+        <li>
+          Contribute to product design and implementation in the context of a startup-style team.
         </li>
       </ul>
     </span>
+    <span class={style.skills}>
+      Skills used: Infrastructure-as-code (CDK), Java, React, DynamoDB, AppSync, GraphQL, SQS/SNS, Lambda, CloudWatch, Python, OOD, MVC.
+    </span>
   </article>
   <article className={style.job}>
-    <img src="dist/assets/airspace-logo.png" width="32" height="32" className={style.logo}/>
+    <img src="dist/assets/airspace-logo.jpg" width="32" height="32" className={style.logo}/>
     <h3 className={style.heading}>
       <span className={style.company}>Airspace Technologies</span>
       <span> - </span>
