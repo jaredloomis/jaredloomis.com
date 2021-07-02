@@ -8,12 +8,12 @@ export default () => <section className={style.container}>
     I have experience with backend and frontend web development, as well as
     3D game development, compiler design, and financial asset analysis.
   </p>
-  <h3>Advanced</h3>
-  <span>
+  <h3 className={style.heading}>Proficient</h3>
+  <p>
     Java, JavaScript, React.js, Node.js, Python, Haskell, Scala, Kotlin, Cloud DevOps, AWS, Infrastructure-as-code & CI/CD, SQL, Shell Scripting
-  </span>
-  <h3>Familiar</h3>
-  <span>
-    C/C++, Rust, Shell Scripting, OpenGL, Compiler Development
-  </span>
+  </p>
+  <h3 className={style.heading}>Familiar</h3>
+  <p>
+    Rust, OpenGL, Compiler Development, C/C++
+  </p>
 </section>
