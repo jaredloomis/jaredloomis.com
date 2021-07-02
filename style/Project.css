@@ -1,3 +1,7 @@
+.heading {
+  display: inline;
+}
+
 .timespan {
   display: block;
   color: var(--color-text-light);
