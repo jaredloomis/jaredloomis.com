@@ -25,9 +25,6 @@ export default () => <section className={style.container}>
           Contribute to design and culture discussions.
         </li>
       </ul>
-      <i>
-        Skills used: Python, CI/CD, MVC patterns, OOD, service-oriented architecture, DJango
-      </i>
     </span>
   </article>
   <article className={style.job}>
