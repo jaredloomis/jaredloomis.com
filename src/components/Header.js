@@ -9,7 +9,7 @@ export default () => <section className={style.container}>
     <img src="dist/assets/me.jpg" width="128" height="128" className={style.headshot}/>
     <h1 className={style.name}>Jared Loomis</h1>
     <div className={style.social}>
-      <a href="dist/assets/jared_loomis-resume.docx">
+      <a href="dist/assets/JaredLoomis-Resume.pdf">
         Resume
       </a>
       •
